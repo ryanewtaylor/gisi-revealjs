@@ -7,35 +7,26 @@
  */
 /*********************************************
  * GLOBAL STYLES 
- * darker blue #20396d
- * blue #3d66c8
+ * darker blue #213a6e
+ * blue #3f67b1
  * beige #cfc8bc
  * gray #a7a49f
  * yellow #e8d21b
- * burnt #46322e
+ * burnt #ee5728
  * turquoise #419ca6
- * orange #f15a23
- * green #588f27
+ * orange #f39d2e
+ * green #5b9340
  *********************************************/
 body {
-  background: #20396d;
-  background: -moz-radial-gradient(center, circle cover, #20396d 0%, #3d66c8 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #20396d), color-stop(100%, #3d66c8));
-  background: -webkit-radial-gradient(center, circle cover, #20396d 0%, #3d66c8 100%);
-  background: -o-radial-gradient(center, circle cover, #20396d 0%, #3d66c8 100%);
-  background: -ms-radial-gradient(center, circle cover, #20396d 0%, #3d66c8 100%);
-  background: radial-gradient(center, circle cover, #20396d 0%, #3d66c8 100%);
-  background-color: #20396d; }
+  background: #fff;
+  background-color: #fff; }
   
 .top-bar {
   position:absolute;
   top:0;
   left:0;
   width: 100%;
-  background: url(../../img/top-nav-bg.png) 0 0 repeat-x;
-  -webkit-box-shadow: 0 2px 2px rgba(0,0,1,.25);
-  -moz-box-shadow: 0 2px 2px rgba(0,0,1,.25);
-  box-shadow: 0 2px 2px rgba(0,0,1,.25);
+  background: #fff;
 }
 
 #branding {
@@ -46,12 +37,12 @@ body {
 
 .logo {
   display:block;
-  position:absolute;
-  left:100px;
-  background:url(../../img/sprite.png) 0 0 no-repeat;
-  font-size:0;
-  width:102px;
-  height:105px;
+  top:10px;
+  left:25px;
+  background:url(../../img/logo.jpg) no-repeat;
+  background-size:65px;
+  width:65px;
+  height:65px;
 }
 
 .arrow {
@@ -69,13 +60,13 @@ body {
   font-size: 30px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #cfc8bc; }
+  color: #000; }
 
 strong {
   color:#419ca6;
 }
 em {
-  color:#f15a23;
+  color:#f39d2e;
 }
 
 .overlay {
@@ -88,7 +79,7 @@ em {
 
 ::selection {
   color: white;
-  background: #f15a23;
+  background: #f39d2e;
   text-shadow: none; }
 
 /*********************************************
@@ -101,7 +92,7 @@ em {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eeeeee;
+  color: #213a6e;
   font-family: "Montserrat", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.03em;
@@ -115,7 +106,7 @@ em {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #f15a23;
+  color: #f39d2e;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -124,13 +115,13 @@ em {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #f3d7ac;
+  color: #ee5728;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #d08a1d; }
+  background: #f39d2e; }
 
 /*********************************************
  * IMAGES
@@ -187,10 +178,10 @@ em {
  *********************************************/
 .reveal .progress {
   height: 10px;
-  background: rgba(0, 0, 0, 0.2); }
+  background: rgba(63, 103, 177, 0.2); }
 
 .reveal .progress span {
-  background: #588f27;
+  background: #213a6e;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -201,4 +192,4 @@ em {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #f15a23; }
+  color: #f39d2e; }
